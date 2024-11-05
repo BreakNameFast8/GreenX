@@ -63,7 +63,7 @@ local function TPReturner(placeId)
 		end
 	end 
 end
-local module = {}
+local module = {} -- Module + func 
 function module:Teleport(placeId)
 	while wait() do
 		pcall(function()
